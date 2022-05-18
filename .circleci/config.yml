@@ -31,10 +31,10 @@ jobs:
           command: |
             npm run be:build
       - run:
-          name: BE Deploy App
-          command: |
-            npm run be:deploy
-      - run:
           name: FE Deploy App
           command: |
             npm run fe:deploy
+      - run:
+          name: BE Deploy App
+          command: |
+            npm run be:deploy
