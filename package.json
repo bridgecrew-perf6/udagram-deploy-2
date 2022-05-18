@@ -1,5 +1,14 @@
-
 {
-    "scripts": {},
+    "scripts": {
+        "fe:install": "cd udagram-frontend && npm install",
+        "be:install": "cd udagram-api && npm install",
+        "fe:build": "cd udagram-frontend && npm run build",
+        "be:build": "cd udagram-api && npm run build",
+        "fe:deploy": "cd udagram-frontend && npm run deploy",
+        "be:deploy": "cd udagram-api && npm run deploy",
+        "fe:test": "cd udagram-frontend && npm run test",
+        "fe:e2e": "cd udagram-frontend && npm run e2e",
+        "be:test": "cd udagram-backend && npm run test"
+    },
     "devDependencies": {}
 }
